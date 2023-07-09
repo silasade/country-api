@@ -15,7 +15,7 @@ function Country(props){
           </div>
             
             <div>
-            <img className='may' src={props.png} alt="image not found"/>
+            <img className='may img-fluid' src={props.png} alt="image not found"/>
             </div>
             <div className='name'>
             

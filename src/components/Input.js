@@ -12,6 +12,7 @@ function Input(props){
             mode={props.mode}
             />
         <div className="inputs" style={props.style2}>
+            <div className='nn'>
             <div className='one'>
                 <input type="text"
                 value={props.value}
@@ -35,6 +36,8 @@ function Input(props){
                   <li style={props.style} onClick={props.onClick6} className="dropdown-item">Oceania</li>
                 </ul>
             </div>
+            </div>
+            
             
         </div>
         </div>

@@ -14,11 +14,12 @@ body{
     
     width:100% ;
     flex-direction: row;
-    margin-bottom: 12.5%;
+    margin-bottom: 10.5%;
     padding: 5%;
     justify-content: space-between;
+    margin-top: 10%;
 }
-.inputs{
+.nn{
     display: flex;
     
     
@@ -37,7 +38,7 @@ body{
 }
 .name,.oo,.may{
     
-    align-self: center;
+  align-self: center;
 }
 input{
     width: 120.33%;
@@ -78,11 +79,10 @@ input{
         margin-bottom: 40%;
         align-content: space-evenly;
         gap: 50px;
+        padding: 0%;
     }
 
-    .name{
-        margin-left: -10%;
-    }
+    
     .item{
         width: 100%;
       }
@@ -91,16 +91,27 @@ input{
         flex-direction: column;
         align-content: space-between;
         
-        gap: 5px;
+        gap: 119;
         
       }
       input{
         
         width: 100%;
+        
       }
-
+      .nn{
+        flex-direction: column;
+        align-content: space-between;
+        
+        gap: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 4;
+      }
       .may{
-        width:90%
+        width:100%
       }
-      
+      .oo,.name{
+        align-self: flex-start;
+      }
 }
