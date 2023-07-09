@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    font-size: 14px;
+}
+.country{
+    display: flex;
+    gap: 7%;
+    
+    width:100% ;
+    flex-direction: row;
+    margin-bottom: 12.5%;
+    padding: 5%;
+    justify-content: space-between;
+}
+.inputs{
+    display: flex;
+    
+    
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.may{
+    width: 600px;
+}
+.back{
+    
+    font-size: 16px;
+}
+.name,.oo,.may{
+    
+    align-self: center;
+}
+input{
+    width: 120.33%;
+    padding: 5%;
+    outline: 0;
+    border: 0;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+  }
+  button{
+    outline: 0;
+    border: 0;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+  }
+  .item{
+    padding: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    cursor: pointer;
+  }
+.dropdown-menu{
+    cursor: pointer;
+    width: 100%;
+    
+    text-align: center;
+}
+.lang,.curr{
+    display: flex;
+    flex-direction: row;
+}
+@media(max-width:800px){
+    .country{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 40%;
+        align-content: space-evenly;
+        gap: 50px;
+    }
+
+    .name{
+        margin-left: -10%;
+    }
+    .item{
+        width: 100%;
+      }
+      .inputs{
+       
+        flex-direction: column;
+        align-content: space-between;
+        
+        gap: 5px;
+        
+      }
+      input{
+        
+        width: 100%;
+      }
+
+      .may{
+        width:90%
+      }
+      
+}
