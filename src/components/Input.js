@@ -25,7 +25,7 @@ function Input(props){
             </div>
             <div className="dropdown">
                 <button className="dropdown-toggleitem item" style={props.style} type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown button
+                  Regions
                 </button>
                 <ul className="dropdown-menu" style={props.style}>
                   <li style={props.style} onClick={props.onClick2} className="dropdown-item">Africa</li>
